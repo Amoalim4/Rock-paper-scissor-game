@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock , paper scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="name">HAMED MOALLIM</h1>
+    <h1 class="name1">HAMED MOALLIM</h1>
+    <!-- game section -->
+    <div class="game" id="game">
+        <h2 class="score">Computer <span id="com-score">0</span>:<span id="player-score">0</span> player</h2>
+        <div class="com" >
+            <img id="com" src="img/scissor L.png" alt="COM"  width="100px;">
+        </div>
+        <div class="player" >
+            <img id="Player-img" src="img/scissor R.png" alt="Player"  width="100px;">
+        </div>
+
+        <h1 class="status" id="status"></h1>
+        <button onclick="playAgain()" class="btn-again">Play again</button>
+        <button onclick="loadpage()" class="btn-reset">Quit</button>
+
+    </div>
+<!-- select section -->
+<div class="select" id="select">
+    <h1 class="time" id="time">15</h1>
+    <div class="items">
+        <button id="rock"><img src="img/rock R.png" alt=""  width="100px"></button>
+        <button id="scissor"><img src="img/scissor R.png" alt=""  width="100px"></button>
+        <button id="paper"><img src="img/paper R.png" alt=""  width="100px"></button>
+    </div>
+    <button onclick="loadpage()" class="btn-reset">Quit</button>
+</div>
+<!-- info section -->
+<div class="info" id="info">
+    <div class="inside-info">
+    <h3 class="indicator"> rock</h3>  <img src="img/rock R.png" alt=""  width="100px">
+    <h3 class="indicator">Scissor</h3> <img src="img/scissor R.png" alt=""  width="100px">
+    <h3 class="indicator">paper</h3> <img src="img/paper R.png" alt=""  width="100px"></div>
+</div>
+
+<!-- start section -->
+<div class="start" id="start">
+    <button onclick="startFunction()" class="btn-start">start</button>
+</div>
+    <!-- link to the srcipt -->
+  <script src="script.js"></script>
+</body>
+</html>
