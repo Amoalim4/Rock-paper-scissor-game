@@ -107,7 +107,7 @@ function mainFuction(){
     // //////////////////////     equel  ///////   //////  /////   /////  /////   /////    /////    ///// 
     document.getElementById("status").style.color = "green"
     if(playerChoise === comChoise){
-        document.getElementById("status").innerHTML = "whooo!! Draw "
+        document.getElementById("status").innerHTML = "woah! it's draw Draw "
     }
     /////////////  1 and 3    ///////////////
     if(playerChoise ===1 && comChoise ===3)
